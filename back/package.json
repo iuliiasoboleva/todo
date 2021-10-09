@@ -1,0 +1,32 @@
+{
+  "name": "core-react-router-yelp",
+  "version": "1.0.0",
+  "description": "Как вы обычно выбираете ресторан или кафе? В Америке существует [Yelp](https://www.yelp.com/search?cflt=restaurants&find_loc=San+Francisco%2C+CA) - полезный сервис, где вы можете посмотреть рестораны, отфильтровать и отсортировать их как вам удобно, зарезервировать столик и тд. Помимо поиска по ресторанам Yelp предоставляет и другие функции, но мы пока их затрагивать не будем. Знаете ли вы какие-нибудь аналоги на российском рынке? Они есть, однако они не так популярны. А значит вы можете написать свой Yelp, и возможно он станет супер-популярным :)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js --ignore sessions"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iuliiasoboleva/core-react-router-yelp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iuliiasoboleva/core-react-router-yelp/issues"
+  },
+  "homepage": "https://github.com/iuliiasoboleva/core-react-router-yelp#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "hbs": "^4.1.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.12",
+    "pg": "^8.7.1",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.6.5",
+    "sequelize-cli": "^6.2.0"
+  }
+}
